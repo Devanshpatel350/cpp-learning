@@ -11,6 +11,8 @@ using namespace std;
 //type function-name (arguments);
 //int sum(int a, int b); //--> Acceptable
 int sum(int, int); //--> Acceptable
+//void g(void); n//-->> Acceptable
+void g();
 
 int main(){
      int num1, num2;
@@ -18,10 +20,18 @@ int main(){
      cin>>num1;
      cout<<"enter second number= "<<endl;
      cin>>num2;
+     //num1 and num2 are actual parameters
      cout<<"the sum is"<<sum(num1, num2);
+     g();
     return 0;
 }
     int sum( int a, int b){
+        //formal parameters a and b will be taking values from actual parameters num1 and num2.
     int c = a+b;
     return c;
+    }
+
+
+    void g(){
+        cout<<"\nhello, Good Morning";
     }

@@ -38,4 +38,4 @@ int main(){
     // cout<<"The factorial of "<<a<< " is "<<factorial(a)<<endl;
     cout<<"The term in fibonacci sequence at position "<<a<< " is "<<fib(a)<<endl;
     return 0;
-}ssssss
+}
