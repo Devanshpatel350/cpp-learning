@@ -28,30 +28,37 @@ global variables
 variable scope:- 
 scope of a vriable is the region in code wheere the existence fo variable is valid.
 based on scope we have local and global variables in c++
-basic nput out put in c++ 
+basic input\ output in c++ 
 c++ come with libraries which helps usin perforing input out put. In c++ sequence of bytes corresponding to input and output aer commonly known a streams 
 Input stream :- direction of flow of bytes takes place from input device (for ex keyboard ) to the main memory. 
 Output stream:- direction of flow of bytes takes place from main memory ot the outut devic (for example display).
 
 
+#include<iostream>
+using namespacestd;
+
+
+int glo=6;
+void sum(){
+int a;
+cout<<glo;
+}
 
 
 
 
 
+#include<iostream>
+using namespaceastd;
 
+int num1,num2;
+cout<<"enter the value of num1:\n";////<<is called Insertion operator
 
+cin> num1;  \\\\ is called extraction operator
 
+cout<<"Enter tge value of num 2:\n";//// ia called insertion operator
 
-
-
-
-
-
-
-
-
-
+cout<<"the sum is"<<num1+num2;
 
 List of Reserved keywords in c++ 
 This is a list of keywords reserved in c++ 
@@ -67,3 +74,37 @@ User defined header files:- It is witten by the programmet presentin the current
 
 
 */
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    cout<<"this is hello world program";
+
+    int main();{
+        int a=4,b=5;
+        cout<<"operators in c++:"<<endl;
+        cout<<"following are the type of operators in c++:"<<endl;// Arithmetic operators
+
+
+
+        cout<<"the value of a+b is"<<a+b;
+        cout<<"the value of a-b is"<<a-b;
+        cout<<"the value of a*b is"<<a*b;
+        cout<<"the value of a/b is"<<a/b;
+
+
+
+        //Assignment operators --> used to assigh value to variables
+        //int a=3,b=9;
+        //char d="d";
+
+        // comparison operators
+
+        cout<<"following are the logical operators in c++"<<endl;
+        cout<<"the value of this logical or operator((a==b)//(a<b))"<<endl;
+
+        return 0;
+    }
+}
