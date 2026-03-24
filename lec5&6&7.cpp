@@ -48,9 +48,9 @@ cout<<"the value of a is"<<int(b)<<endl;
 int c = int(b);
 
 
-cout<<"the expression is"<<a + b;
-cout<<"the expression is"<<a + int(b);
-cout<<"the expression is"<<a + (int) b;
+cout<<"the expression is"<<a + b<<endl;
+cout<<"the expression is"<<a + int(b)<<endl;
+cout<<"the expression is"<<a + (int) b<<endl;
 return 0; 
 
 
